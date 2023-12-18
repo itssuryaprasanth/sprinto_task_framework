@@ -1,0 +1,25 @@
+{
+
+  "WhereFrom": {
+            "locator":"xpath",
+              "value": "//input[@placeholder=\"Where from?\"]"
+  },
+  "WhereTo": {"locator":"xpath",
+                      "value": "//input[@placeholder=\"Where to?\"]"
+  },
+  "AirPortList": {"locator":"xpath",
+                    "value":"//ul[@class=\"airportList\"]//p"
+  },
+  "SearchFlights": {"locator":  "xpath",
+                      "value" : "//span[text()=\"Search flights\"]"
+  },
+  "ClosePopup": {"locator":"xpath",
+                        "value":"(//div[contains(@class,'bg-white')])[5]//div[contains(@class,'flex flex-middle')]"},
+
+  "DaySelect":{"locator":"xpath",
+                    "value":"(//div[@class=\"DayPicker-Week\"])[{0}]//div[contains(@class,'DayPicker-Day') and contains(@aria-label,'{1}')]"},
+  "FlightsPrices": {"locator":"xpath",
+            "value": "//div[@data-testid=\"airlineBlock\"]//p[starts-with(text(),'₹')]"},
+  "StartDate": {"locator":"xpath",
+                        "value": "//div[contains(@class,\"homeCalender\")]//button"}
+}
